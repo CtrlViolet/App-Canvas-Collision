@@ -135,7 +135,7 @@ class Circle {
 
       // **Reproduce el sonido cuando ocurra la colisión**
       // Crea una nueva instancia de Audio para cada colisión
-      const collisionSound = new Audio("./assets/momo.ogg");
+      const collisionSound = new Audio("./assets/momo.mp3");
       collisionSound.play(); // Reproduce el sonido de colisión en cada colisión
     }
   }
